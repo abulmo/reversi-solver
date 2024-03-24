@@ -4,26 +4,11 @@
  * - copyleft (c) 2001-2004
  * - version 1.4 (2004-04-12 18:00:00)
  * - author: Richard A Delorme
- * - e-mail: abulmo@club-internet.fr
- * - web site: http://perso.club-internet.fr/abulmo/resources/
+ * - e-mail: edax.reversi@gmail.com
+  *
  *
- *
- * \section lic Licence
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
- *
- *
+ * \section lic License
+ * This code is released under the MIT License. See the LICENSE file for details.
  *
  * \section pres Presentation
  *
@@ -144,7 +129,7 @@
  *     - to Bruno Causse, who discovered an illogical bug when passing.
  *     - to Gunnar Anderson, who gave me the idea about the parity based on
  * quadrant, as a fast sorting algorithm at shallow depth.
- *     - to Björn Lindberg, who reported a bug in version 1.3.
+ *     - to BjÃ¶rn Lindberg, who reported a bug in version 1.3.
  *     - to people at GGS for their invaluable comments about this file.
  *
  */
