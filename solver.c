@@ -5,7 +5,7 @@
  * - version 1.4 (2004-04-12 18:00:00)
  * - author: Richard A Delorme
  * - e-mail: edax.reversi@gmail.com
-  *
+ * - github : https://github.com/abulmo/reversi-solver/
  *
  * \section lic License
  * This code is released under the MIT License. See the LICENSE file for details.
@@ -17,7 +17,7 @@
  *                  Tony Hoare
  *
  * At ftp://ftp.nj.nec.com/pub/igord/IOS/src, an Othello archive site, there
- * is a program about endgame solving firstly written by Jean-Christophe Weill,
+ * was a program about endgame solving firstly written by Jean-Christophe Weill,
  * then improved by Warren D Smith and further improved by Gunnar Anderson.
  * Although my work was greatly influenced by these programs, the solver I
  * present here is not another improvement but a complete re-implementation,
