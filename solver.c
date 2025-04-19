@@ -1,8 +1,8 @@
 /*!\mainpage
  *
  * solver.c : a program to solve Othello endgame script.
- * - copyleft (c) 2001-2004
- * - version 1.4 (2004-04-12 18:00:00)
+ * - copyleft (c) 2001-2025
+ * - version 1.4 (2025-04-20 08:15:00)
  * - author: Richard A Delorme
  * - e-mail: edax.reversi@gmail.com
  * - github : https://github.com/abulmo/reversi-solver/
@@ -113,7 +113,8 @@
  * - version 1.4: 2004-04-12
  *      - major bug removal: wrong score returned from game-over positions.
  *      - minor speed enhancements: board update/restore unrolling.
- *
+ * - version 1.5: 2025-04-12
+ *      - major bug removal: MAX_MOVE need to be set to 34, not 32
  *
  * \section ref Reference
  * -# Marsland T.A. (1983) Relative efficiency of alpha-beta implementations.
@@ -189,8 +190,8 @@
 /*! size of the board */
 #define BOARD_SIZE 91
 
-/*! maximal number of moves */
-#define MAX_MOVE 32
+/*! maximal number of moves. For a proof, see: https://doi.org/10.51094/jxiv.480 */
+#define MAX_MOVE 34
 
 /*! maximal number of squares flipped + 1 */
 #define MAX_FLIP 20
